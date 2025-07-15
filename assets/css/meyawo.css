@@ -12428,3 +12428,49 @@ pre .code {
   border-bottom: 0.1px solid #ddd; /* Optional: Adds a light border at the bottom */
 }
 
+
+
+
+
+
+
+
+
+.cv-section {
+  background-color: #ebebeb;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.cv-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #695aa6;
+}
+
+.cv-section p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #695aa6;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.cv-button:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
